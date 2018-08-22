@@ -8,4 +8,4 @@ The following tools are available to globally install via NPM.
 
 | Name | Description |
 | ---- | ----------- |
-| [chatdown-glob](libraries/chatdown-glob/README.md) | Process multiple chatdown files in one command |
+| [chatdown-glob](packages/chatdown-glob/README.md) | Process multiple chatdown files in one command |
