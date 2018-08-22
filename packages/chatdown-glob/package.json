@@ -1,0 +1,40 @@
+{
+  "name": "chatdown-glob",
+  "version": "0.1.4",
+  "description": "CLI utility for processing multiple chatdown files at once.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BotBuilderCommunity/botbuilder-community-tools.git"
+  },
+  "keywords": [
+    "bots",
+    "bot",
+    "framework",
+    "chatbots",
+    "chatdown",
+    "javascript",
+    "typescript",
+    "markdown",
+    "glob"
+  ],
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BotBuilderCommunity/botbuilder-community-tools/issues"
+  },
+  "homepage": "https://github.com/BotBuilderCommunity/botbuilder-community-tools#readme",
+  "dependencies": {
+    "blob": "0.0.4",
+    "chalk": "^2.4.1",
+    "chatdown": "^1.0.10",
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.2",
+    "minimist": "^1.2.0",
+    "read-text-file": "^1.1.0"
+  },
+  "bin": "./bin/chatdown-glob"
+}
