@@ -1,0 +1,225 @@
+[
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "1",
+    "recipient": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "from": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "timestamp": "2018-08-22T19:27:31.100Z",
+    "type": "conversationUpdate",
+    "channelId": "chatdown",
+    "membersAdded": [
+      {
+        "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+        "name": "Ginny",
+        "role": "bot"
+      }
+    ],
+    "membersRemoved": []
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "2",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "text": "Hello, Angel. What are looking for today?",
+    "timestamp": "2018-08-22T19:27:33.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "3",
+    "recipient": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "from": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "text": "When is my next exam?",
+    "timestamp": "2018-08-22T19:27:35.100Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "5",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-22T19:27:35.200Z",
+    "type": "typing",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "4",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "text": "Your next exam is Friday at 12:00pm. It's a summative for Foundations of Medicine.",
+    "timestamp": "2018-08-22T19:27:38.200Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "6",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "text": "Would you like to take a practice exam?",
+    "timestamp": "2018-08-22T19:27:40.200Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "7",
+    "recipient": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "from": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "text": "Actually, when is my next quiz.",
+    "timestamp": "2018-08-22T19:27:42.200Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "9",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "timestamp": "2018-08-22T19:27:42.300Z",
+    "type": "typing",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "8",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "text": "Oh, okay. You're next quiz is at 10:00am tomorrow morning. It's a TBL on anatomy.",
+    "timestamp": "2018-08-22T19:27:45.300Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "10",
+    "recipient": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "from": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "text": "Do I have to go?",
+    "timestamp": "2018-08-22T19:27:47.300Z",
+    "type": "message",
+    "channelId": "chatdown"
+  },
+  {
+    "conversation": {
+      "id": "KwJgkoCwzFYvZ98O31Ezq21WxNE="
+    },
+    "id": "11",
+    "recipient": {
+      "id": "F+eqcC7t9MeTjQQbe8vkW0UYWN0=",
+      "name": "Angel",
+      "role": "user"
+    },
+    "from": {
+      "id": "VbmEsUAkerfrPQfOk1/C9yHJcu4=",
+      "name": "Ginny",
+      "role": "bot"
+    },
+    "text": "Yes, attendance is required for all TBLs.",
+    "timestamp": "2018-08-22T19:27:49.300Z",
+    "type": "message",
+    "channelId": "chatdown"
+  }
+]
