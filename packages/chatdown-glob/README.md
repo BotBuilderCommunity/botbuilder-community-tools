@@ -1,5 +1,7 @@
 # Chatdown Glob
 
+> The Bot Builder Community has worked with the Bot Framework team to merge this functionality into the [Chatdown CLI](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Chatdown). You can now process multiple files directly from the CLI tool.
+
 Chatdown Glob is a tool for processing multiple [Chatdown](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Chatdown) files in a single command.
 
 ## Installation
