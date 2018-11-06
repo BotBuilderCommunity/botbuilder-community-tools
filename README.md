@@ -9,3 +9,4 @@ The following tools are available to globally install via NPM.
 | Name | Description | NPM |
 | ---- | ----------- |-----|
 | [chatdown-glob](packages/chatdown-glob/README.md) | Process multiple chatdown files in one command | ![NPM Version](https://img.shields.io/badge/npm-0.1.4-red.svg) |
+| [directline-postman](directline-postman/README.md) | Postman tools for debugging bots through the Direct Line | - |

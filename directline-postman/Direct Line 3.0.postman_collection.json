@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "dd987fa5-5a5d-4b4a-92a8-8a9534b3e0e5",
+		"name": "Direct Line 3.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Start conversation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b9fac75e-3211-44d3-9115-7b2d128def15",
+						"exec": [
+							"pm.test(\"Save conversation ID\", () => {",
+							"    var jsonData = pm.response.json();",
+							"    pm.environment.set(\"conversationId\", jsonData.conversationId);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://directline.botframework.com/v3/directline/conversations",
+					"protocol": "https",
+					"host": [
+						"directline",
+						"botframework",
+						"com"
+					],
+					"path": [
+						"v3",
+						"directline",
+						"conversations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"event\",\r\n    \"from\": {\r\n        \"id\": \"user1\"\r\n    },\r\n    \"name\": \"MyCustomEvent\",\r\n\t\"value\": {\r\n  \t\t\"myCustomProperty\": \"myCustomValue\"\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "https://directline.botframework.com/v3/directline/conversations/{{conversationId}}/activities",
+					"protocol": "https",
+					"host": [
+						"directline",
+						"botframework",
+						"com"
+					],
+					"path": [
+						"v3",
+						"directline",
+						"conversations",
+						"{{conversationId}}",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send message",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"type\": \"message\",\r\n    \"from\": {\r\n        \"id\": \"user1\"\r\n    },\r\n    \"text\": \"hello\"\r\n}"
+				},
+				"url": {
+					"raw": "https://directline.botframework.com/v3/directline/conversations/{{conversationId}}/activities",
+					"protocol": "https",
+					"host": [
+						"directline",
+						"botframework",
+						"com"
+					],
+					"path": [
+						"v3",
+						"directline",
+						"conversations",
+						"{{conversationId}}",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Receive activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://directline.botframework.com/v3/directline/conversations/{{conversationId}}/activities",
+					"protocol": "https",
+					"host": [
+						"directline",
+						"botframework",
+						"com"
+					],
+					"path": [
+						"v3",
+						"directline",
+						"conversations",
+						"{{conversationId}}",
+						"activities"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{directLineSecret}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "406e1bc2-29b0-40ae-a2aa-469537eb945c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "2fc55f41-a1a7-4a9c-92f5-98fa10b06e4f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
