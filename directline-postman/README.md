@@ -1,6 +1,6 @@
 # Direct Line Postman Package
 
-This package contains a Postman collection and a [Postman](https://www.getpostman.com/) environment for debugging Microsoft Bot Framework chatbots through the [Direct Line API 3.0.]((https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0))
+This package contains a Postman collection and a [Postman](https://www.getpostman.com/) environment for debugging Microsoft Bot Framework chatbots through the [Direct Line API 3.0.](https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)
 
 ## Installation
 
