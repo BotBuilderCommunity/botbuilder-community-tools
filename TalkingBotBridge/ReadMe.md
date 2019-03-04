@@ -213,3 +213,12 @@ private readonly Uri TTSAPIUri = new Uri("https://<YOUR_REGION>.tts.speech.micro
 ```
 
 Either add your `directline` secret at design/run time, run the app and start talking to your bot!
+
+# Troubleshooting
+Since we're using a few different services here, it's easy for things to go wrong and you're scratching your head trying to work out why.  So here's a few items to check:
+
+- LUIS is not using the Starter_Key, get a subscription key from the Azure Portal and publish the model using it.
+- LUIS model and key are deployed in the data center you are expecting
+- Speech subscription key matches the endpoint you are expecting
+- The Bot id and Direct Line secret are correct
+- The bot responds with text or speech attribute set, this bridge doesn't currently handle cards - but could be easily adapted.
