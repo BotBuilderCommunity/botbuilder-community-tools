@@ -27,14 +27,6 @@ Now if you look at the 'node_modules\.bin' folder within your project, you shoul
 
 Before we can update the code, we need to add a couple of environment variables to make sure the qnamaker command line tool is able to run successfully. So simply those 4 key value pairs with your information to the function's application settings:
 
-| Name   |    Value    |
-| ---- | :----: |
-| QNAMAKER_ENDPOINTKEY | yourQnAMakerEndpointKey |
-| QNAMAKER_HOSTNAME | yourQnAMakerHostname |
-| QNAMAKER_KBID | yourKBId |
-| QNAMAKER_SUBSCRIPTION_KEY | yourSubscriptionKey |
-
-
 | Name  | Value |
 | ------------- | ------------- |
 | QNAMAKER_ENDPOINTKEY  | yourQnAMakerEndpointKey  |
