@@ -26,12 +26,21 @@ To do that, you need to bring up the Kudu environment of your funtcion, whill ca
 Now if you look at the 'node_modules\.bin' folder within your project, you should see that you have a dispatch.cmd and a qnamaker.cmd file available. Now within that folder, you need to have your .dispatch file available (if you already created your dispatch model). If you need to create your dispatch model, follow the steps from [here](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch#usage) to initialize the dispatch model (dispatch init) within that folder location. Now what you will get then, is a .dispatch and a .json file which are used to store information about your dispatch model.
 
 Before we can update the code, we need to add a couple of environment variables to make sure the qnamaker command line tool is able to run successfully. So simply those 4 key value pairs with your information to the function's application settings:
+
 | Name   |    Value    |
 | ---- | :----: |
 | QNAMAKER_ENDPOINTKEY | yourQnAMakerEndpointKey |
 | QNAMAKER_HOSTNAME | yourQnAMakerHostname |
 | QNAMAKER_KBID | yourKBId |
 | QNAMAKER_SUBSCRIPTION_KEY | yourSubscriptionKey |
+
+
+| Name  | Value |
+| ------------- | ------------- |
+| QNAMAKER_ENDPOINTKEY  | yourQnAMakerEndpointKey  |
+| QNAMAKER_HOSTNAME  | yourQnAMakerHostname  |
+| QNAMAKER_KBID   | yourKBId   |
+| QNAMAKER_SUBSCRIPTION_KEY   | yourSubscriptionKey   |
 
 Now that this is in place, we can update the PowerShell code to call the dispatch and qnamaker tool.
 
