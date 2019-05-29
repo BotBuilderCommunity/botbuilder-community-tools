@@ -44,7 +44,7 @@ $kbID = $env:QNAMAKER_KBID
 & "D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\qnamaker.cmd" publish kb --kbId $kbID
 
 # Update the dispatch model to get the latest changes from the QnAMaker KBs
-"D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\dispatch.cmd" refresh
+& "D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\dispatch.cmd" refresh
 ```
 
 So the overall code of your function could look like this:
@@ -65,7 +65,7 @@ $kbID = $env:QNAMAKER_KBID
 & "D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\qnamaker.cmd" publish kb --kbId $kbID
 
 # Update the dispatch model to get the latest changes from the QnAMaker KBs
-"D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\dispatch.cmd" refresh
+& "D:\home\site\wwwroot\TimerTrigger1\node_modules\.bin\dispatch.cmd" refresh
 
 # Write an information log with the current time.
 Write-Host "PowerShell timer trigger function ran! TIME: $currentUTCtime"
