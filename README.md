@@ -17,3 +17,9 @@ The following tools are available to run as isolated Powershell modules.
 | Name | Description
 | ---- | -----------
 | [bottroubleshooter](./bottroubleshooter/README.md) | Script to troubleshoot common issues with bot setup, configuration, and connectivity |
+
+The following tools are available as [Visual Studio Code](https://code.visualstudio.com/) extensions:
+
+| Name | Description
+| ---- | -----------
+| [bfc-vscode-snippets](./bfc-vscode-snippets/README.md) | A Visual Studio Code extension to add snippets around the Bot Framework to your editor. Extension download is link [here](https://marketplace.visualstudio.com/items?itemName=BotFrameworkCommunity.bfc-vscode-snippets) |
