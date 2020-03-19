@@ -16,19 +16,19 @@ Currently there are the following HTML snippets available to quickly create a ne
 
 The snippet **bf-wc-create-basic-hml** creates a basic plain html/js web chat within an HTML file:
 
-![bf-wc-create-basic-hml usage](./assets/bfc-webchat-basic-snippet-demo.gif)
+![bf-wc-create-basic-hml usage](https://raw.githubusercontent.com/BotBuilderCommunity/botbuilder-community-tools/master/bfc-vscode-snippets/assets/bfc-webchat-basic-snippet-demo.gif)
 
 #### bf-wc-create-style-html
 
 The snippet **bf-wc-create-style-html** creates a plain html/js web chat within an HTML file including some styling options already added to the web chat:
 
-![bf-wc-create-style-html usage](./assets/bfc-webchat-styling-snippet-demo.gif)
+![bf-wc-create-style-html usage](https://raw.githubusercontent.com/BotBuilderCommunity/botbuilder-community-tools/master/bfc-vscode-snippets/assets/bfc-webchat-styling-snippet-demo.gif)
 
 #### bfc-lu-create
 
 The snippet **bfc-lu-create** creates a the required structure within .lu files used for managing [LUIS](https://www.luis.ai/) applications:
 
-![bfc-lu-create usage](./assets/bfc-lu-snippet-demo.gif)
+![bfc-lu-create usage](https://raw.githubusercontent.com/BotBuilderCommunity/botbuilder-community-tools/master/bfc-vscode-snippets/assets/bfc-lu-snippet-demo.gif)
 
 ## Feedback, Ideas & Contributions
 

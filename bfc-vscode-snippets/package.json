@@ -3,6 +3,7 @@
     "displayName": "BFC-VSCode-Snippets",
     "description": "VS Code snippets for Bot Framework devs",
     "version": "0.0.1",
+    "icon": "assets/bfc_icon.png",
     "publisher": "BotFrameworkCommunity",
     "engines": {
         "vscode": "^1.43.0"
@@ -10,6 +11,16 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "Bot Framework",
+        "Web Chat",
+        "LUIS"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BotBuilderCommunity/botbuilder-community-tools"
+    },
     "contributes": {
         "languages": [{
             "id": "lu",
