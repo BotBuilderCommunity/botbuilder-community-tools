@@ -1,0 +1,30 @@
+{
+    "name": "bfc-vscode-snippets",
+    "displayName": "BFC-VSCode-Snippets",
+    "description": "VS Code snippets for Bot Framework devs",
+    "version": "0.0.1",
+    "publisher": "BotFrameworkCommunity",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lu",
+            "aliases": ["lu"],
+            "extensions": [".lu"]
+        }],
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "lu",
+                "path": "./snippets/lu-snippets.json"
+            }
+        ]
+    }
+}
