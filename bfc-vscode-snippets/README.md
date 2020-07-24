@@ -3,6 +3,7 @@
 This extension for [Visual Studio Code](https://code.visualstudio.com/) adds snippets for Bot Framework development. Currently it contains snippets for the following areas:
 - Bot Framework Web Chat
 - LUIS (.lu) files
+- Adaptive Cards
 
 ## Usage
 
