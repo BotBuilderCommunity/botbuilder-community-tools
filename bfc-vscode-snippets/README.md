@@ -35,10 +35,6 @@ The snippet **bfc-lu-create** creates a the required structure within .lu files 
 
 ![bfc-lu-create usage](https://raw.githubusercontent.com/BotBuilderCommunity/botbuilder-community-tools/master/bfc-vscode-snippets/assets/bfc-lu-snippet-demo.gif)
 
-## Feedback, Ideas & Contributions
-
-Feedback and/or snippet ideas as well as contributions always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/BotBuilderCommunity/botbuilder-community-tools/issues).
-
 ### Adaptive Cards Snippets
 
 If you're building bots, you might need to include Adaptive Cards of some sort. Especially during the development phase it can make sense to just use sample cards to focus on the development side of things. Therefore, you can use the following commands to easily create new Adaptive Cards and redesign them later on:
@@ -58,3 +54,7 @@ Creates the [weather compact sample card](https://adaptivecards.io/samples/Weath
 #### bf-ac-expenseReport
 
 Provides you with the [expense report sample card](https://adaptivecards.io/samples/ExpenseReport.html) to include in your bot's project.
+
+## Feedback, Ideas & Contributions
+
+Feedback and/or snippet ideas as well as contributions always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/BotBuilderCommunity/botbuilder-community-tools/issues).
