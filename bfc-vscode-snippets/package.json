@@ -2,7 +2,7 @@
     "name": "bfc-vscode-snippets",
     "displayName": "BFC-VSCode-Snippets",
     "description": "VS Code snippets for Bot Framework devs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "assets/bfc_icon.png",
     "publisher": "BotFrameworkCommunity",
     "engines": {
@@ -35,6 +35,10 @@
             {
                 "language": "lu",
                 "path": "./snippets/lu-snippets.json"
+            },
+            {
+                "language": "json",
+                "path": "./snippets/ac-snippets.json"
             }
         ]
     }

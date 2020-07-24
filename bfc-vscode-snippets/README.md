@@ -24,6 +24,10 @@ The snippet **bf-wc-create-style-html** creates a plain html/js web chat within 
 
 ![bf-wc-create-style-html usage](https://raw.githubusercontent.com/BotBuilderCommunity/botbuilder-community-tools/master/bfc-vscode-snippets/assets/bfc-webchat-styling-snippet-demo.gif)
 
+### Language Understanding Snippets
+
+The following snippet should boost your LUIS model setup:
+
 #### bfc-lu-create
 
 The snippet **bfc-lu-create** creates a the required structure within .lu files used for managing [LUIS](https://www.luis.ai/) applications:
@@ -33,3 +37,23 @@ The snippet **bfc-lu-create** creates a the required structure within .lu files 
 ## Feedback, Ideas & Contributions
 
 Feedback and/or snippet ideas as well as contributions always welcome. Please submit them via creating an issue in the extension repository: [issue list](https://github.com/BotBuilderCommunity/botbuilder-community-tools/issues).
+
+### Adaptive Cards Snippets
+
+If you're building bots, you might need to include Adaptive Cards of some sort. Especially during the development phase it can make sense to just use sample cards to focus on the development side of things. Therefore, you can use the following commands to easily create new Adaptive Cards and redesign them later on:
+
+#### bf-ac-activityUpdate
+
+Adds a [activity update sample card](https://adaptivecards.io/samples/ActivityUpdate.html) to your project.
+
+#### bf-ac-inputForm
+
+Initializes a new [input form sample card](https://adaptivecards.io/samples/InputForm.html) to be used to gather input from users.
+
+#### bf-ac-weatherCompact
+
+Creates the [weather compact sample card](https://adaptivecards.io/samples/WeatherCompact.html) to demo a weather card.
+
+#### bf-ac-expenseReport
+
+Provides you with the [expense report sample card](https://adaptivecards.io/samples/ExpenseReport.html) to include in your bot's project.
