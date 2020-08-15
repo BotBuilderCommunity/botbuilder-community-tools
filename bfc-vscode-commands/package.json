@@ -1,16 +1,30 @@
 {
 	"name": "bfc-vscode-commands",
-	"displayName": "bfc-vscode-commands",
+	"displayName": "BFC-VSCode-Commands",
 	"description": "VS Code commands for Bot Framework devs",
 	"version": "0.0.1",
+	"icon": "assets/bfc_icon.png",
+	"publisher": "BotFrameworkCommunity",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"Bot Framework",
+		"Web Chat",
+		"LUIS"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BotBuilderCommunity/botbuilder-community-tools"
+	},
 	"activationEvents": [
-		"onCommand:bfc.luisImport"
+		"onCommand:bfc.luisImport",
+		"onCommand:bfc.luisTrainRun",
+		"onCommand:bfc.previewWebchat"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -19,21 +33,37 @@
 				"command": "bfc.luisImport",
 				"title": "Import LUIS application",
 				"when": "resourceExtname == .lu"
+			},
+			{
+				"command": "bfc.luisTrainRun",
+				"title": "Train LUIS application"
+			},
+			{
+				"command": "bfc.previewWebchat",
+				"title": "Preview Web Chat",
+				"when": "resourceExtname == .html"
 			}
 		],
 		"menus": {
 			"explorer/context": [
-			  {
-				"when": "resourceExtname == .lu",
-				"command": "bfc.luisImport",
-				"alt": "bfc.luisImport",
-				"group": "7_modification@1"
-			  }
+				{
+					"when": "resourceExtname == .lu",
+					"command": "bfc.luisImport",
+					"alt": "bfc.luisImport",
+					"group": "7_modification@1"
+				},
+				{
+					"when": "resourceExtname == .html",
+					"command": "bfc.previewWebchat",
+					"alt": "bfc.previewWebchat",
+					"group": "7_modification@1"
+				}
 			]
-		  }
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
+		"preinstall": "npm i -g @microsoft/botframework-cli",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
 		"watch": "tsc -watch -p ./",
@@ -44,13 +74,18 @@
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^7.0.1",
 		"@types/node": "^12.11.7",
+		"@types/request-promise": "^4.1.46",
+		"@types/request-promise-native": "^1.0.17",
 		"@types/vscode": "^1.47.0",
-		"eslint": "^6.8.0",
-		"@typescript-eslint/parser": "^2.18.0",
 		"@typescript-eslint/eslint-plugin": "^2.18.0",
+		"@typescript-eslint/parser": "^2.18.0",
+		"eslint": "^6.8.0",
 		"glob": "^7.1.6",
 		"mocha": "^7.0.1",
 		"typescript": "^3.7.5",
 		"vscode-test": "^1.3.0"
+	},
+	"dependencies": {
+		"request-promise": "^4.2.6"
 	}
 }
