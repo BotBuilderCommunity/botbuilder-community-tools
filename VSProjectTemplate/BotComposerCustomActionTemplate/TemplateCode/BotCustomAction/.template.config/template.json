@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Composer",
+  "classifications": ["Windows", "macOS" , "Linux" , "AI Bots"],
+  "identity": "vinoth.80316C0F-3EA8-4E38-8541-1F226099C731",
+  "name": "Bot Composer Custom Action",
+  "shortName": "Bot Action",
+  "defaultName": "CustomAction",
+  "description": "A template to create an custom action template for bot composer.",
+    "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BotCustomAction",
+  "preferNameDirectory": true,
+  "symbols": {
+      "Title": {
+      "type": "parameter",
+      "defaultValue": "Bot composer custom action template",
+      "replaces": "titlecontent",
+      "datatype": "text",
+      "description": "Title of the dialog"
+    },
+    "Description": {
+      "type": "parameter",
+      "description": "Description of the dialog",
+      "defaultValue": "Custom action",
+      "replaces": "DescriptionContent"
+    }
+  }
+}
