@@ -27,4 +27,4 @@ The following tools are available as [Visual Studio Code](https://code.visualstu
 ## Visual Studio Project template
 | Name | Description
 | ---- | -----------
-| [Bot Composer Custom Template](./VSProjectTemplate/README.md) | A Visual Studio project template for Bot composer , download is link [here](https://marketplace.visualstudio.com/items?itemName=Vinoth.CustomAction1) |
+| [Bot Composer Custom Template](./VSProjectTemplate/BotComposerCustomActionTemplate/README.md) | A Visual Studio project template for Bot composer , download is link [here](https://marketplace.visualstudio.com/items?itemName=Vinoth.CustomAction1) |
