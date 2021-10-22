@@ -94,9 +94,15 @@
   </Target>
   <PropertyGroup>
     <PreBuildEvent>echo "$(ProjectDir)..\"
+
 cd "$(ProjectDir)\..""\TemplateCode\"
+
 echo "$(ProjectDir)\..""\TemplateCode\"
+
 nuget.exe pack BotCustomAction.BotCommunity.NetCoreTool.nuspec -OutputDirectory "$(ProjectDir)\.."\assets
+
+
+nuget.exe pack BotComposerMiddlewareComponet.BotCommunity.NetCoreTool..nuspec -OutputDirectory "$(ProjectDir)\.."\assets
 
 </PreBuildEvent>
   </PropertyGroup>

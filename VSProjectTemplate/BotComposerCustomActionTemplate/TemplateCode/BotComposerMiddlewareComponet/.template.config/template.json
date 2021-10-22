@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Bot Builder Community",
+  "classifications": ["Windows", "macOS" , "Linux" , "AI Bots", "Bot Composer"],
+  "identity": "vinoth.80316C0F-3EA8-4E38-8541-1F226099C756",
+  "name": "Bot Composer Custom Middleware",
+  "shortName": "Bot Middleware",
+  "defaultName": "MiddlewareComponent",
+  "description": "A template to create an middleware component for bot composer.",
+    "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "MiddlewareName",
+  "preferNameDirectory": true  
+}

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="BotComposerCustomAction.9518d4a4-f8f7-4417-ad58-3964f314b76e" Version="1.0" Language="en-US" Publisher="Vinoth Rajendran" />
+        <Identity Id="BotComposerCustomAction.9518d4a4-f8f7-4417-ad58-3964f314b76e" Version="2.0" Language="en-US" Publisher="Vinoth Rajendran" />
         <DisplayName>Bot Composer Action</DisplayName>
-        <Description xml:space="preserve">A template to create an custom action project for bot composer</Description>
+        <Description xml:space="preserve">A template to create an custom action , Middleware compoent project for bot composer</Description>
         <Icon>bot.png</Icon>
         <PreviewImage>bot.png</PreviewImage>
         <Tags>Bot , AI , chat , Framework , composer</Tags>

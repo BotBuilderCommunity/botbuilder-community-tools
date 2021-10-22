@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata>
+		<id>BotComposerMiddlewareComponet.BotCommunity.NetCoreTool.nuspec</id>
+		<version>0.0.1</version>
+		<description>
+			A template to create an custom action template for bot composer.
+		</description>
+		<authors>Vinoth Rajendran</authors>
+		<license type="expression">Apache-2.0</license>
+		<packageTypes>
+			<packageType name="Template" />
+		</packageTypes>
+	</metadata>
+	<files>
+		<file src="BotComposerMiddlewareComponet\**\*.*" exclude="BotComposerMiddlewareComponet\**\bin\**\*.*;BotComposerMiddlewareComponet\**\obj\**\*.*;
+		BotComposerMiddlewareComponet\**\.template.config\**\*.*" target="BotComposerMiddlewareComponet" />
+	</files>  
+</package>

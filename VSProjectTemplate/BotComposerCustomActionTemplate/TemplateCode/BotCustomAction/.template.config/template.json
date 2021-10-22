@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Composer",
-  "classifications": ["Windows", "macOS" , "Linux" , "AI Bots"],
+  "author": "Bot Builder Community",
+  "classifications": ["Windows", "macOS" , "Linux" , "AI Bots", "Bot Composer"],
   "identity": "vinoth.80316C0F-3EA8-4E38-8541-1F226099C731",
   "name": "Bot Composer Custom Action",
   "shortName": "Bot Action",
