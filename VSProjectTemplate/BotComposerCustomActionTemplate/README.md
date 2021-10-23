@@ -1,6 +1,6 @@
 # Bot Framework Community Visual Studio Project Template for Bot Composer
 
-This Project Tempalte for [Visual Studio ](https://visualstudio.microsoft.com/) to create for Bot composer custom projects. Currently it contains the following areas:
+This Project template for [Visual Studio ](https://visualstudio.microsoft.com/) to create for Bot composer custom projects. Currently it contains the following areas:
 
 - Bot Composer Custom Action
 - Bot Composer Middleware Component 
