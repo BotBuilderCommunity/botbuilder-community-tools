@@ -17,7 +17,7 @@ This Project template for [Visual Studio ](https://visualstudio.microsoft.com/) 
 Download the [Template](https://marketplace.visualstudio.com/items?itemName=Vinoth.CustomAction1) here or <br> Install template directly from Visual Studio 2022. (Extensions -> Manage Extensions )
 
 
-Install the project template, Once the template has installed , Start the Visual Studio. 
+Once the template has installed , start the visual studio
 Goto create a project option.<BR> **Note** : You can filter the project based on **AI Bots** or **Bot Composer** <Br>
 
   ![image](https://user-images.githubusercontent.com/16264167/138487126-87998a49-7fbc-4b7c-b45f-7964d208ef08.png)
@@ -26,7 +26,7 @@ Goto create a project option.<BR> **Note** : You can filter the project based on
 #### 1. Bot Composer Custom Action
 This template is use to create a Custom action project for Bot Composer<br>
 
-  Select the "Bot Composer Custom Action(Bot Builder Community)" Project  and enter the project 
+  select the "Bot Composer Custom Action(Bot Builder Community)" project  and enter the project 
   
   Create a Project ( Ex: SampleCustomAction)
   ![image](https://user-images.githubusercontent.com/16264167/138487775-edeb7b10-5fbc-4e67-a2d0-43101cb620ad.png)
@@ -38,7 +38,7 @@ This template is use to create a Custom action project for Bot Composer<br>
 
   <br><br>
   #### 2. Bot Composer Custom Middleware
-  This template is use to create a Custom middleware project for Bot Composer<br>
+  This template is use to create a custom middleware project for Bot Composer<br>
   <br>
   ![image](https://user-images.githubusercontent.com/16264167/138489664-4ace5874-4292-4ea1-9e18-86b2cba5cc92.png)
   <br>
