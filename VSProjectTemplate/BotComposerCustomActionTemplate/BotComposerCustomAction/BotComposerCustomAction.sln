@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotComposerCustomAction", "BotComposerCustomAction.csproj", "{B35754ED-004A-40EC-B25A-CAA385521E48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Debug|x86.ActiveCfg = Debug|x86
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Debug|x86.Build.0 = Debug|x86
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Release|x86.ActiveCfg = Release|x86
+		{B35754ED-004A-40EC-B25A-CAA385521E48}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6581C0E1-2DCD-41B6-8C3E-5D4DB618B089}
+	EndGlobalSection
+EndGlobal

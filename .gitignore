@@ -62,3 +62,14 @@ typings/
 
 # VS Code
 .vsix
+
+# VS Build output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+.vs/
+obj/
+*.obj
